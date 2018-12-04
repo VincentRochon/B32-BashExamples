@@ -11,7 +11,7 @@ do
 	echo -n "z"
 	sleep 0.2
 	clear
-	compteur=$compteur+1
+	compteur=$(($compteur+1))
 done
 
 	for((i=0;i<$compteur;i++))
